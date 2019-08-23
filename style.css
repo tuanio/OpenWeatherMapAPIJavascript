@@ -3,33 +3,35 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
+#body_container {
+    width: 100%;
+}
+select {
+    padding: 10px;
+}
+#txt_btn {
+    margin-left: 3em;
+}
+#container_list_city {
+    float: right;
+    width: 20%;
+    margin-right: 3em;
+}
+#info {
+    margin: 0 auto;
+    width: 40%;
+}
 #container {
     overflow: hidden;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    width: 100%;
-}
-#day1  {
+    width: 60%;
     float: left;
-    padding: 30px;
 }
-#day2 {
+.day  {
     float: left;
-    padding: 28px;
-}
-#day3 {
-    float: left;
-    padding: 28px;
-}
-#day4 {
-    float: left;
-    padding: 28px;
-}
-#day5 {
-    float: left;
-    padding: 28px;
-
+    padding: 13px;
 }
 .temp {
     font-weight: bold;

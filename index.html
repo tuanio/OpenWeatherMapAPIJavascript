@@ -8,66 +8,92 @@
     <title>Open Weather Map</title>
 </head>
 <body>
-    <div id="container">
+    <div id="body_container">
         <div id="info">
-            <h1 id="header">Open Weather API</h1>
-            <h3 id="country"></h3>
-            <span>Where you want to watch the weather: </span>
-            <input type="textbox" name="textbox" id="txt_place" placeholder="1591449">
-            <input type="button" name="button" value="OK" id="commit_place">
+                <h1 id="header">Open Weather API</h1>                
+                <h3 id="country"></h3>
+                <span>Where you want to watch the weather: </span>
+                <div id="txt_btn">
+                    <input type="textbox" name="textbox" id="txt_place" placeholder="1591449">
+                    <input type="button" name="button" value="OK" id="commit_place">
+                </div>
+            </div>
+        <div id="container">
+            <div id="show">
+                <div id="day1" class="day">
+                    <img src="#" alt="" id="img1" class="image"/>
+                    <p id="temp1" class="temp"></p>
+                    <p id="text1" class="des"></p>
+                    <p id="text_description1" class="txt_des"></p>
+                    <p id="date1" class="dt"></p>
+                    <span class="span_hum"></span><span id="humidity1" class="hum"></span>
+                </div>
+                <div id="day2" class="day">
+                    <img src="#" alt="" id="img2" class="image"/>
+                    <p id="temp2" class="temp"></p>
+                    <p id="text2" class="des"></p>
+                    <p id="text_description2" class="txt_des"></p>
+                    <p id="date2" class="dt"></p>
+                    <span class="span_hum"></span><span id="humidity2" class="hum"></span>
+                </div>
+                <div id="day3" class="day">
+                    <img src="#" alt="" id="img3" class="image"/>
+                    <p id="temp3" class="temp"></p>
+                    <p id="text3" class="des"></p>
+                    <p id="text_description3" class="txt_des"></p>
+                    <p id="date3" class="dt"></p>
+                    <span class="span_hum"></span><span id="humidity3" class="hum"></span>
+                </div>
+                <div id="day4" class="day">
+                    <img src="#" alt="" id="img4" class="image"/>
+                    <p id="temp4" class="temp"></p>
+                    <p id="text4" class="des"></p>
+                    <p id="text_description4" class="txt_des"></p>
+                    <p id="date4" class="dt"></p>
+                    <span class="span_hum"></span><span id="humidity4" class="hum"></span> 
+                </div>
+
+                <div id="day5" class="day">
+                    <img src="#" alt="" id="img5" class="image"/>
+                    <p id="temp5" class="temp"></p>
+                    <p id="text5" class="des"></p>
+                    <p id="text_description5" class="txt_des"></p>
+                    <p id="date5" class="dt"></p>
+                    <span class="span_hum"></span><span id="humidity5" class="hum"></span> 
+                </div>
+                <div id="footer">
+                    Copyright&copy 2017-2019. Nguyễn Văn Anh Tuấn 
+                </div>
+            </div>
+         
         </div>
-
-
-
-        <div id="show">
-            <div id="day1" class="day">
-                <img src="weathericon.jpg" alt="" id="img1" class="image"/>
-                <p id="temp1" class="temp"></p>
-                <p id="text1" class="des"></p>
-                <p id="text_description1" class="txt_des"></p>
-                <p id="date1" class="dt"></p>
-                <span class="span_hum"></span><span id="humidity1" class="hum"></span>
-            </div>
-            <div id="day2" class="day">
-                <img src="weathericon.jpg" alt="" id="img2" class="image"/>
-                <p id="temp2" class="temp"></p>
-                <p id="text2" class="des"></p>
-                <p id="text_description2" class="txt_des"></p>
-                <p id="date2" class="dt"></p>
-                <span class="span_hum"></span><span id="humidity2" class="hum"></span>
-            </div>
-            <div id="day3" class="day">
-                <img src="weathericon.jpg" alt="" id="img3" class="image"/>
-                <p id="temp3" class="temp"></p>
-                <p id="text3" class="des"></p>
-                <p id="text_description3" class="txt_des"></p>
-                <p id="date3" class="dt"></p>
-                <span class="span_hum"></span><span id="humidity3" class="hum"></span>
-            </div><div id="day4" class="day">
-                <img src="weathericon.jpg" alt="" id="img4" class="image"/>
-                <p id="temp4" class="temp"></p>
-                <p id="text4" class="des"></p>
-                <p id="text_description4" class="txt_des"></p>
-                <p id="date4" class="dt"></p>
-                <span class="span_hum"></span><span id="humidity4" class="hum"></span> 
-            </div>
-
-            <div id="day5" class="day">
-                <img src="weathericon.jpg" alt="" id="img5" class="image"/>
-                <p id="temp5" class="temp"></p>
-                <p id="text5" class="des"></p>
-                <p id="text_description5" class="txt_des"></p>
-                <p id="date5" class="dt"></p>
-                <span class="span_hum"></span><span id="humidity5" class="hum"></span> 
-            </div>
-            <div id="footer">
-                Copyright&copy 2017. Nguyễn Văn Anh Tuấn 
-            </div>
+        <div id="container_list_city">
+            <select>
+                <option class="opt_city">1580578 - Thành phố Hồ Chí Minh</option>
+                <option class="opt_city">1905686 - Tỉnh Hải Dương</option>
+                <option class="opt_city">1582720 - Tỉnh Ðồng Nai</option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+                <option class="opt_city"></option>
+            </select>
         </div>
-     
-    </div>
-    <div id="container_list_city">
-        
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
