@@ -36,10 +36,7 @@
     font-size: 200%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 }
-.separate {
-    float: left;
-    border: 10px solid darkslategray;
-}
+
 .des {
     color: white;
     font-weight: bold;
